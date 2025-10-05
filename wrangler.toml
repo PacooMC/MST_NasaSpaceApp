@@ -1,0 +1,7 @@
+name = "mst-nasa-space-app"
+compatibility_date = "2024-10-05"
+pages_build_output_dir = "./.vercel/output/static"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+# GEMINI_API_KEY is injected at deploy time via Wrangler secrets
